@@ -36,5 +36,6 @@ auto main() -> int {
                        "finds errors quicker than the compiler",
                        "is not afraid of C++ error messages"};
 
+    std::cout << "\nHere is your description:" << std::endl;
     std::cout << name + ", the "s + adjectives.at(name.size() % adjectives.size()) + " "s + nouns.at(time_of_year) + " that "s + endings[name.size() % endings.size()] << std::endl;
 }
